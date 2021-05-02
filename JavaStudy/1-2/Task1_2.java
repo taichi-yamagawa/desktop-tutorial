@@ -35,6 +35,7 @@ public class Task1_2 {
 
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
         // int型配列 intArray の1番目の要素と4番目の要素を足す
+        // int型配列 intArray の2番目の要素と5番目の要素を足して出力する
         System.out.println(intArray[1] + intArray[4]);
 
     }
