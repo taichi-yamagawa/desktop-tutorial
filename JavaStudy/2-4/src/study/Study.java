@@ -1,8 +1,7 @@
 package study;
 
 //①FruitsConstants.javaをインポートしなさい。
-import static constants.FruitsConstants.*;
-
+import constants.FruitsConstants;
 //②Fruits.javaをインポートしなさい。
 import fruits.Fruits;
 
@@ -21,7 +20,8 @@ public class Study {
 		 *     また、課題の画像と同じ表示になるように
 		 *     printFruitsの引数にはFruitsConstantsに指定されている定数を設定してください。
 		 */
-		Fruits.printFruits(FRUITS_LEMON_04, FRUITS_COUNT_20);
+		FruitsConstants constants = new FruitsConstants();
+		Fruits.printFruits(constants.FRUITS_LEMON_04, constants.FRUITS_COUNT_20);
 
 	}
 }
