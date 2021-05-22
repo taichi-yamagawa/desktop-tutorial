@@ -28,20 +28,21 @@ public class Study {
 
 		// 問② 「(Calendar.MONTH) + 数値」の処理は、想定していない値となる可能性があります。
 		// その理由をコメントへ記述してください。
-		// MONTHは1月を0として、1月~12月を0~11の数値で返すので、１つズレが生じるためそこを考慮しなければならない。
+		// 繰り上げや繰り下げの対応をしたい場合、getメソッドで対応してしまうと、あくまで「月の値 + 1」であるため、「13月、14月、15月」
+		//という想定していない値になる可能性がある。
 		
 		System.out.println(calendar.get(Calendar.YEAR));
 		System.out.println(calendar.get(Calendar.MONTH) + 1);
 		System.out.println(calendar.get(Calendar.DATE));
+		
 		// 問③ 上記の「calendar」を使用し、本日から1年2ヶ月15日先の日付を表示しなさい。
 		// - この課題に関しては課題実施日によって結果が異なりますので、Wiki課題の画像とは結果が異なります。
 		// - また、うるう年の場合は設定内容が正しくとも日付がズレて表示される可能性があります。
 		calendar.add(Calendar.YEAR, 1);
-		calendar.add(Calendar.MONTH, 2);
-		calendar.add(Calendar.DAY_OF_MONTH, 15);
-		
 		System.out.println(calendar.get(Calendar.YEAR));
+		calendar.add(Calendar.MONTH, 3);
 		System.out.println(calendar.get(Calendar.MONTH) + 1);
+		calendar.add(Calendar.DAY_OF_MONTH, 15);
 		System.out.println(calendar.get(Calendar.DATE));
         
 		// うるう年判定
