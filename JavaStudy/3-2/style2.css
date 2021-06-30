@@ -1,0 +1,74 @@
+
+/* puzzle */
+.puzzle {
+    font-size: 50px;
+}
+
+/* header */
+.header { 
+    width: 400px;
+    height: 100px; 
+    background-color: #141c46;
+}
+
+/* side */
+.side { 
+    float: left;
+    width: 150px;
+    height: 250px;
+    background-color: #8bccb7
+}
+
+/* content */
+.content {
+    float: left;
+}
+
+/* content-top-left */
+.content-top-left {
+    float: left;
+}
+
+/* content-top-left-top */
+.content-top-left-top { 
+    width: 150px; 
+    height: 50px;
+    background-color: #dbd400;
+}
+
+/* content-top-left-bottom */
+.content-top-left-bottom { 
+    width: 150px; 
+    height: 100px;
+    background-color: #0093b7;
+}
+
+/* content-top-right  */
+.content-top-right { 
+    float:right; 
+    width: 100px; 
+    height: 150px;
+    background-color: #ff9e6b;
+}
+
+/* content-bottom  */
+.content-bottom { 
+
+    width: 250px; 
+    height: 100px;
+    background-color: #822525;
+}
+
+/* footer */
+.footer {
+    width: 400px;
+    height: 100px;
+    background-color: #bb822d;
+}
+
+/* clearfix */
+.clearfix::after { 
+    content: ''; 
+    display: block; 
+    clear: both;
+}
