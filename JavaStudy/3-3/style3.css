@@ -1,0 +1,98 @@
+
+/* puzzle */
+.puzzle {
+    font-size: 50px;
+}
+
+/* header */
+.header { 
+    box-sizing: border-box;
+    width: 400px;
+    height: 100px; 
+    padding: 20px;
+    background-color: #141c46;
+}
+
+.header-content1 {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border: 10px solid #eee;
+    background-color: #a9004b
+}
+
+.header-content2 {
+
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-top: 10px solid #eee;
+    border-bottom:10px solid #eee;
+    background-color: #a9004b
+}
+
+.header-content3 {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border: 10px solid #eee;
+    background-color: #a9004b
+}
+
+/* left */
+.left { 
+    float: left;
+    width: 150px;
+    height: 250px;
+    background-color: #8bccb7
+}
+
+/* right */
+.right {
+    box-sizing: border-box;
+    float: left;
+    width: 250px;
+    height: 250px;
+    padding: 20px 0px 0px 40px;
+    background-color: #8c2727
+}
+
+/* right-in-1 */
+.right-in-1 {
+    margin:0px 0px 10px;
+    width: 140px;
+    height: 40px;
+    border: solid 5px #eee;
+    background-color: #ff863f
+}
+
+/* right-in-2 */
+.right-in-2 {
+    margin:0px 0px 10px;
+    width: 140px;
+    height: 40px;
+    border: solid 5px #eee;
+    background-color: #ff863f
+}
+
+/* right-in-3 */
+.right-in-3 {
+    width: 140px;
+    height: 40px;
+    border: solid 5px #eee;
+    background-color: #ff863f
+}
+
+/* footer */
+.footer {
+    width: 400px;
+    height: 100px;
+    background-color: #bb822d;
+}
+
+/* clearfix */
+.clearfix::after { 
+    content: ''; 
+    display: block; 
+    clear: both;
+}
