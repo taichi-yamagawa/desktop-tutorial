@@ -1,0 +1,36 @@
+
+/* 見出し */
+.header {
+	background-color: gray;
+}
+
+/* 見出し内容 */
+.headerName {
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+
+/* 現在日時 */
+.date {
+	padding: 10px;
+	font-size: 10px;
+}
+
+/* 入力フォーム */
+.inputForm {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/* フッター */
+.footer {
+	background-color: gray;
+}
+
+/* フッター内容 */
+.footerName {
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
